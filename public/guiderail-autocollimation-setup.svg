@@ -80,23 +80,23 @@
        y="78.313255" />
     <path
        style="fill:#ffff00;stroke:#ffff00;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1"
-       d="m 122.09846,86.246499 43.03115,-0.06671"
+       d="m 122,86.246 43.031,0"
        id="path4" />
     <path
        style="fill:#ffff00;stroke:#ffff00;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1"
-       d="m 122.02547,90.24583 43.03114,-0.0667"
+       d="m 122,90.246 43.031,0"
        id="path5" />
     <path
        style="fill:#ffff00;stroke:#ffff00;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1"
-       d="m 121.95248,94.245165 43.03114,-0.0667"
+       d="m 122,94.246 43.031,0"
        id="path6" />
     <path
        style="fill:#ffff00;stroke:#ffff00;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1"
-       d="m 121.87949,98.244496 43.03115,-0.0667"
+       d="m 122,98.246 43.031,0"
        id="path7" />
     <path
        style="fill:#ffff00;stroke:#ffff00;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1"
-       d="m 121.80649,102.24384 43.03115,-0.0667"
+       d="m 122,102.246 43.031,0"
        id="path8" />
   </g>
   <text
