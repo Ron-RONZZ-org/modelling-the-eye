@@ -239,17 +239,17 @@
      id="g5">
     <path
        style="opacity:0.546721;fill:none;fill-opacity:0.929412;stroke:#ffff00;stroke-opacity:0.929412"
-       d="m 92.00,150.00 235.0000,-15.4800 86.0000,0.0000 -250.0000,10.8031"
+       d="m 92.861005,150.79264 234.282355,-17.89065 84.55463,-0.85193 -247.91333,1.49088"
        id="path3"
        sodipodi:nodetypes="cccc" />
     <path
        style="opacity:0.546721;fill:none;fill-opacity:0.929412;stroke:#ffff00;stroke-opacity:0.929412"
-       d="m 92.00,150.00 235.0000,15.4800 86.0000,0.0000 -250.0000,-10.8031"
+       d="m 90.36144,151.80722 238.5542,12.04819 85.9504,0.0365 -255.30058,-1.77069"
        id="path4"
        sodipodi:nodetypes="cccc" />
     <path
        style="opacity:0.546721;fill:none;fill-opacity:0.929412;stroke:#ffff00;stroke-opacity:0.929412"
-       d="M 92,150 416,150"
+       d="M 92.168669,151.20481 416.26504,150.6024"
        id="path5" />
   </g>
   <g
@@ -262,16 +262,16 @@
        inkscape:original-d="M 193.17645,140.7824 Z" />
     <path
        style="opacity:0.546721;fill:none;fill-opacity:0.929412;stroke:#ffff00;stroke-opacity:0.929412"
-       d="m 193.39000,143.32120 2.98178,2.55581 -2.55581,3.62073"
+       d="m 193.38943,140.14344 2.98178,2.55581 -2.55581,3.62073"
        id="path7" />
   </g>
   <path
      style="opacity:0.546721;fill:none;fill-opacity:0.929412;stroke:#ffff00;stroke-opacity:0.929412"
-     d="m 206.38000,142.46552 -2.98177,3.83371 3.40774,2.76879"
+     d="m 206.38145,134.60586 -2.98177,3.83371 3.40774,2.76879"
      id="path8" />
   <path
      style="opacity:0.546721;fill:none;fill-opacity:0.929412;stroke:#ffff00;stroke-opacity:0.929412"
-     d="m 204.46000,157.40800 3.19476,-2.98178 -2.55581,-3.19476"
+     d="m 204.4646,154.20039 3.19476,-2.98178 -2.55581,-3.19476"
      id="path9" />
   <g
      id="g10">
@@ -297,7 +297,7 @@
        inkscape:original-d="M 193.17645,140.7824 Z" />
     <path
        style="opacity:0.546721;fill:none;fill-opacity:0.929412;stroke:#ffff00;stroke-opacity:0.929412"
-       d="m 193.39000,143.32120 2.98178,2.55581 -2.55581,3.62073"
+       d="m 193.38943,140.14344 2.98178,2.55581 -2.55581,3.62073"
        id="path13" />
   </g>
 </svg>
