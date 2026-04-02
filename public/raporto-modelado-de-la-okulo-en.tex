@@ -7,6 +7,8 @@
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{siunitx}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
 \title{TP3: Modelling the Human Eye}
 \author{Rong ZHOU}
 \newcommand{\univaddress}{3 Rue Augustin Fresnel, 57070 Metz}
@@ -15,6 +17,9 @@
 
 \begin{document}
 \maketitle
+\begin{center}
+  \small Universit\'e de Lorraine, \today, \href{mailto:ron@ronzz.org}{ron@ronzz.org}, \univaddress
+\end{center}
 
 \section{Introduction}
 
@@ -39,7 +44,7 @@ For this experiment, we employ the following equipment:
 
 First, we verify the focal distances of the converging lenses to be employed in our experiment with the following setup:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{autocollimation-refined.pdf}
 \caption{Autocollimation setup for focal distance verification}
@@ -68,7 +73,7 @@ Measured focal distance (mm) & 104 & 155 & 208 \\
 
 We construct a fictitious eye with a converging lens, which represents the lens in the eye, and a blank screen, which represents the retina:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{eye-model.pdf}
 \caption{Model of the fictitious eye}
@@ -79,7 +84,7 @@ We construct a fictitious eye with a converging lens, which represents the lens 
 
 We construct a scenario simulating the focus on an object considered infinitely far away (light rays arriving in parallel):
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{eye-vision-infinity.pdf}
 \caption{Fictitious eye focused at infinity}
@@ -90,7 +95,7 @@ We construct a scenario simulating the focus on an object considered infinitely 
 
 We construct a scenario simulating the focus on an object 200~mm away from the eye:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{eye-vision-closeup.pdf}
 \caption{Fictitious eye focused on an object 200~mm away}
@@ -107,7 +112,7 @@ After having constructed the fictitious eye and understood its optical mechanism
 
 The experimental setup is as follows:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{magnifying-glass.pdf}
 \caption{Experimental setup with magnifying glass}
@@ -119,7 +124,7 @@ Hence we have $O_{\text{eye}}A = 600~\text{mm}$ (arbitrary choice), eye focused 
 With the aid of a ruler, we have measured the size of 11 vertical grids of the gridded glass to be 24~mm, which translates into an average of 2.182~mm per grid.
 For convenience, we isolate the four grids above the focal centre, which has a theoretical height of 8.727~mm as our object ($AB = 8.727~\text{mm}$):
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{grid-glass.png}
 \caption{Gridded glass used as object, with four grids isolated above the focal centre}
@@ -128,7 +133,7 @@ For convenience, we isolate the four grids above the focal centre, which has a t
 
 This translates to an observation angle $\alpha$ of approximately 0.0145 radians:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{observation-angle-object.pdf}
 \caption{Observation angle $\alpha$ of the object}
@@ -139,7 +144,7 @@ To observe the magnification effect, we place converging lenses of various focal
 
 Since the eye is focused at infinity, the light rays arriving at the ``eye lens'' must be parallel to form a clear image on the ``retina''. Therefore, $\alpha' = \arctan\!\left(\frac{AB}{AO}\right)$. So the magnification magnitude $M = \frac{\alpha'}{\alpha} = \frac{\arctan\!\left(\frac{AB}{AO}\right)}{0.0145~\text{rad}}$:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{magnification-magnitude.pdf}
 \caption{Diagram of the magnification magnitude $M$}
@@ -173,7 +178,7 @@ From which we can attest that the human eye lens ``shrinks'' images before passi
 
 In addition, graphing $M$ against $\frac{1}{f}$:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{M-f.png}
 \caption{Graph of magnification $M$ vs.\ $\frac{1}{f}$}

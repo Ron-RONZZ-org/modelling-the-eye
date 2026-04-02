@@ -7,6 +7,8 @@
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{siunitx}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
 \title{TP3: Modélisation de l'Œil Humain}
 \author{Rong ZHOU}
 \newcommand{\univaddress}{3 Rue Augustin Fresnel, 57070 Metz}
@@ -15,6 +17,9 @@
 
 \begin{document}
 \maketitle
+\begin{center}
+  \small Universit\'e de Lorraine, \today, \href{mailto:ron@ronzz.org}{ron@ronzz.org}, \univaddress
+\end{center}
 
 \section{Introduction}
 
@@ -39,7 +44,7 @@ Pour cette expérience, nous utilisons le matériel suivant~:
 
 Premièrement, nous vérifions les distances focales des lentilles convergentes à utiliser dans notre expérience avec le dispositif suivant~:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{autocollimation-refined.pdf}
 \caption{Dispositif d'autocollimation pour la vérification des distances focales}
@@ -68,7 +73,7 @@ Distance focale mesurée (mm) & 104 & 155 & 208 \\
 
 Nous construisons un œil fictif avec une lentille convergente, qui représente le cristallin, et un écran blanc, qui représente la rétine~:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{eye-model.pdf}
 \caption{Modèle de l'œil fictif}
@@ -79,7 +84,7 @@ Nous construisons un œil fictif avec une lentille convergente, qui représente 
 
 Nous construisons un scénario simulant la focalisation sur un objet considéré infiniment lointain (rayons lumineux arrivant parallèlement)~:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{eye-vision-infinity.pdf}
 \caption{Œil fictif focalisé à l'infini}
@@ -90,7 +95,7 @@ Nous construisons un scénario simulant la focalisation sur un objet considéré
 
 Nous construisons un scénario simulant la focalisation sur un objet à 200~mm de l'œil~:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{eye-vision-closeup.pdf}
 \caption{Œil fictif focalisé sur un objet à 200~mm}
@@ -107,7 +112,7 @@ Après avoir construit l'œil fictif et compris ses mécanismes optiques, nous t
 
 Le dispositif expérimental est le suivant~:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{magnifying-glass.pdf}
 \caption{Dispositif expérimental avec loupe}
@@ -119,7 +124,7 @@ Ainsi, $O_{\text{œil}}A = 600~\text{mm}$ (choix arbitraire), œil focalisé à 
 À l'aide d'une règle, nous avons mesuré la taille de 11 carreaux verticaux du verre quadrillé à 24~mm, ce qui correspond à une moyenne de 2,182~mm par carreau.
 Pour plus de commodité, nous isolons les quatre carreaux au-dessus du centre focal, ayant une hauteur théorique de 8,727~mm comme objet ($AB = 8{,}727~\text{mm}$)~:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{grid-glass.png}
 \caption{Verre quadrillé utilisé comme objet, avec quatre carreaux isolés au-dessus du centre focal}
@@ -128,7 +133,7 @@ Pour plus de commodité, nous isolons les quatre carreaux au-dessus du centre fo
 
 Cela correspond à un angle d'observation $\alpha$ d'environ 0,0145 radians~:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{observation-angle-object.pdf}
 \caption{Angle d'observation $\alpha$ de l'objet}
@@ -139,7 +144,7 @@ Pour observer l'effet de grossissement, nous plaçons des lentilles convergentes
 
 Puisque l'œil est focalisé à l'infini, les rayons lumineux arrivant au \og{}cristallin\fg{} doivent être parallèles pour former une image nette sur la \og{}rétine\fg{}. Donc $\alpha' = \arctan\!\left(\frac{AB}{AO}\right)$. Ainsi la magnitude de grossissement $M = \frac{\alpha'}{\alpha} = \frac{\arctan\!\left(\frac{AB}{AO}\right)}{0{,}0145~\text{rad}}$~:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{magnification-magnitude.pdf}
 \caption{Schéma de la magnitude de grossissement $M$}
@@ -173,7 +178,7 @@ $\frac{M}{\frac{A'B'}{AB}}$ & 4.092 & 3.654 & 3.356 & 2.671 \\
 
 De plus, en traçant $M$ en fonction de $\frac{1}{f}$~:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{M-f.png}
 \caption{Graphe du grossissement $M$ en fonction de $\frac{1}{f}$}

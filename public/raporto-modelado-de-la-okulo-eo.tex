@@ -7,6 +7,8 @@
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{siunitx}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
 \title{TP3: Modelado de la Homa Okulo}
 \author{Rong ZHOU}
 \newcommand{\univaddress}{3 Rue Augustin Fresnel, 57070 Metz}
@@ -15,6 +17,9 @@
 
 \begin{document}
 \maketitle
+\begin{center}
+  \small Universit\'e de Lorraine, \today, \href{mailto:ron@ronzz.org}{ron@ronzz.org}, \univaddress
+\end{center}
 
 \section{Enkonduko}
 
@@ -39,7 +44,7 @@ Por ĉi tiu eksperimento, ni uzas la sekvajn ilojn:
 
 Unue, ni konfirmas la fokusajn distancojn de la konvergaj lensoj, kiujn ni uzos en nia eksperimento, per la sekva aranĝo:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{autocollimation-refined.pdf}
 \caption{Autokolimacia aranĝo por konfirmo de fokusaj distancoj}
@@ -68,7 +73,7 @@ Mezurita fokusa distanco (mm) & 104 & 155 & 208 \\
 
 Ni konstruas fikcion okulon per konverga lenso, kiu reprezentas la lensan sistemon de la okulo, kaj blanka ekrano, kiu reprezentas la retinon:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{eye-model.pdf}
 \caption{Modelo de la fikcia okulo}
@@ -79,7 +84,7 @@ Ni konstruas fikcion okulon per konverga lenso, kiu reprezentas la lensan sistem
 
 Ni konstruas scenaron simulantan la fokusiĝon sur objekto konsiderata infinire malproksima (lumradioj alvenantaj paralele):
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{eye-vision-infinity.pdf}
 \caption{Fikcia okulo fokusita ĉe senfinio}
@@ -90,7 +95,7 @@ Ni konstruas scenaron simulantan la fokusiĝon sur objekto konsiderata infinire 
 
 Ni konstruas scenaron simulantan la fokusiĝon sur objekto 200~mm for de la okulo:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{eye-vision-closeup.pdf}
 \caption{Fikcia okulo fokusita sur objekto 200~mm for}
@@ -107,7 +112,7 @@ Post konstruo de la fikcia okulo kaj kompreno de ĝiaj optikaj meĥanismoj, ni n
 
 La eksperimenta aranĝo estas kiel sekvas:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{magnifying-glass.pdf}
 \caption{Eksperimenta aranĝo kun lupo}
@@ -119,7 +124,7 @@ Do ni havas $O_{\text{okulo}}A = 600~\text{mm}$ (arbitra elekto), okulo fokusita
 Per mezurilo, ni mezuris la grandecon de 11 vertikalaj kadroj de la kvaratita vitro kiel 24~mm, kio tradukiĝas al averaĝo de 2.182~mm per kadro.
 Por konveno, ni izolas la kvar kadrojn super la fokusa centro, kun teoria alto de 8.727~mm kiel nia objekto ($AB = 8.727~\text{mm}$):
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{grid-glass.png}
 \caption{Kvaratita vitro uzata kiel objekto, kun kvar kadroj izolitaj super la fokusa centro}
@@ -128,7 +133,7 @@ Por konveno, ni izolas la kvar kadrojn super la fokusa centro, kun teoria alto d
 
 Ĉi tio tradukiĝas al observoangulo $\alpha$ de ĉirkaŭ 0.0145 radianoj:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{observation-angle-object.pdf}
 \caption{Observoangulo $\alpha$ de la objekto}
@@ -139,7 +144,7 @@ Por observi la pligrandigan efikon, ni metas konvergajn lensojn de diversaj foku
 
 Ĉar la okulo estas fokusita ĉe senfinio, la lumradioj alvenantaj al la «okul-lenso» devas esti paralelaj por formi klaran bildon sur la «retino». Tial $\alpha' = \arctan\!\left(\frac{AB}{AO}\right)$. Do la pligrandiga grandeco $M = \frac{\alpha'}{\alpha} = \frac{\arctan\!\left(\frac{AB}{AO}\right)}{0.0145~\text{rad}}$:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{magnification-magnitude.pdf}
 \caption{Skemo de la pligrandiga grandeco $M$}
@@ -173,7 +178,7 @@ El ĉi tio ni povas atesti, ke la homa okula lenso «malgrandigas» bildojn anta
 
 Krome, grafike prezentante $M$ kontraŭ $\frac{1}{f}$:
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.9\linewidth]{M-f.png}
 \caption{Grafeo de $M$ kontraŭ $\frac{1}{f}$}
